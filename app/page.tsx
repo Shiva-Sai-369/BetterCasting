@@ -1,16 +1,15 @@
 import { AnnouncementBar } from '@/components/announcement-bar'
 import { Navbar } from '@/components/navbar'
 import { HeroSection } from '@/components/hero-section'
-import { FeaturesSection } from '@/components/features-section'
-import { USPSection } from '@/components/usp-section'
+import AboutHero from '@/components/about-hero'
+import SealingSolutions from '@/components/sealing-solutions'
+import AtAGlance from '@/components/at-a-glance'
 import { IndustriesSection } from '@/components/industries-section'
-import { ManufacturingStats } from '@/components/manufacturing-stats'
 import { GasketProducts } from '@/components/gasket-products'
 import ManufacturingCapabilities from '@/components/manufacturing-capabilities'
 import IndustrialStuds from '@/components/industrial-studs'
 import WhyChooseBCBento from '@/components/why-choose-bc-bento'
 import ManufacturingProcess from '@/components/manufacturing-process'
-import { StatsBanner } from '@/components/stats-banner'
 import { FAQSection } from '@/components/faq-section'
 import Certifications from '@/components/certifications'
 import { Footer } from '@/components/footer'
@@ -25,10 +24,9 @@ export default function Page() {
         </div>
         <HeroSection />
       </div>
-      <FeaturesSection />
-      <USPSection />
-      <ManufacturingStats />
-      <StatsBanner />
+      <AboutHero />
+      <SealingSolutions />
+      <AtAGlance />
       <GasketProducts />
       <IndustrialStuds />
       <ManufacturingCapabilities />

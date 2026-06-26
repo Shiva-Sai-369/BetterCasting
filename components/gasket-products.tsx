@@ -6,24 +6,21 @@ import { CheckCircle } from "lucide-react";
 export function GasketProducts() {
   const tabs = [
     {
-      title: "Metallic & Semi-Metallic",
+      title: "Ring Type Joint (RTJ) Gaskets",
       value: "metallic",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
           <div className="max-w-4xl">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              Metallic & Semi-Metallic Gaskets
+            <h3 className="text-2xl md:text-3xl font-bold mb-6">  
+              Ring Type Joint (RTJ) Gaskets
             </h3>
-            <p className="text-slate-300 mb-8 leading-relaxed">
-              Our gasket manufacturing division produces a wide range of metallic
-              and semi-metallic sealing products, including:
-            </p>
+            
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">Ring Type Joint (RTJ) Gaskets</span>
+                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />                  
+                  <span className="text-slate-200">BX Ring Gasket</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
@@ -41,30 +38,7 @@ export function GasketProducts() {
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
                   <span className="text-slate-200">RX Ring Gasket</span>
                 </div>
-              </div>
-
-              <div className="space-y-3">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">BX Ring Gasket</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">Spiral Wound Gaskets</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">CG (Gasket with Outer Ring Only)</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">GI (Gasket with Inner Ring Only)</span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <span className="text-slate-200">CGI (Gasket with Inner and Outer Ring)</span>
-                </div>
-              </div>
+              </div>          
             </div>
 
             <p className="mt-8 text-slate-400 text-sm">
@@ -84,58 +58,26 @@ export function GasketProducts() {
             <h3 className="text-2xl md:text-3xl font-bold mb-6">
               Spiral Wound Gaskets
             </h3>
-            <p className="text-slate-300 mb-8 leading-relaxed">
-              Spiral wound gaskets offer superior sealing performance and are engineered for challenging applications:
-            </p>
 
-            <div className="space-y-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-slate-100 font-semibold">CG Gaskets</p>
-                      <p className="text-slate-400 text-sm">Gasket with Outer Ring Only</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-slate-100 font-semibold">GI Gaskets</p>
-                      <p className="text-slate-400 text-sm">Gasket with Inner Ring Only</p>
-                    </div>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
+                  <span className="text-slate-200">CG (Gasket with Outer Ring Only)</span>
                 </div>
-
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-slate-100 font-semibold">CGI Gaskets</p>
-                      <p className="text-slate-400 text-sm">Gasket with Inner and Outer Ring</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-slate-100 font-semibold">Graphite Filled</p>
-                      <p className="text-slate-400 text-sm">Enhanced temperature resistance</p>
-                    </div>
-                  </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
+                  <span className="text-slate-200">GI (Gasket with Inner Ring Only)</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
+                  <span className="text-slate-200">CGI (Gasket with Inner and Outer Ring)</span>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-slate-700">
-              <p className="text-slate-300">
-                Spiral wound gaskets provide excellent resilience, better recovery after
-                compression, and superior performance across a wide range of temperatures
-                and pressures, making them ideal for critical sealing applications.
-              </p>
-            </div>
-
-            <p className="mt-6 text-slate-400 text-sm">
-              Manufactured according to international standards for demanding industrial systems.
+            <p className="mt-8 text-slate-400 text-sm">
+              Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
             </p>
           </div>
         </div>
@@ -150,57 +92,26 @@ export function GasketProducts() {
             <h3 className="text-2xl md:text-3xl font-bold mb-6">
               Specialty Gaskets
             </h3>
-            <p className="text-slate-300 mb-8 leading-relaxed">
-              We manufacture specialized gasket solutions for unique industrial applications:
-            </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-slate-100 font-semibold">IX Gaskets</p>
-                    <p className="text-slate-400 text-sm">Innovative design for extreme conditions</p>
-                  </div>
+                  <span className="text-slate-200">IX Gasket</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-slate-100 font-semibold">Bonnet Gaskets</p>
-                    <p className="text-slate-400 text-sm">Specialized valve bonnet sealing</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-slate-100 font-semibold">Custom Gaskets</p>
-                    <p className="text-slate-400 text-sm">Tailored solutions for specific requirements</p>
-                  </div>
+                  <span className="text-slate-200">Bonnet Gasket</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
-                  <div>
-                    <p className="text-slate-100 font-semibold">High-Performance Materials</p>
-                    <p className="text-slate-400 text-sm">PTFE, elastomers, and composites</p>
-                  </div>
+                  <span className="text-slate-200">Other Custom Gaskets</span>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-slate-700">
-              <h4 className="font-semibold text-slate-100 mb-4">Custom Solutions</h4>
-              <p className="text-slate-300 leading-relaxed">
-                Our engineering team works closely with clients to design and manufacture
-                custom gasket solutions that meet specific application requirements, including
-                unique geometries, material combinations, and performance specifications.
-              </p>
-            </div>
-
-            <p className="mt-6 text-slate-400 text-sm">
-              All specialty gaskets are manufactured to international standards with rigorous quality control.
+            <p className="mt-8 text-slate-400 text-sm">
+              Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
             </p>
           </div>
         </div>
@@ -214,10 +125,11 @@ export function GasketProducts() {
         {/* Section Header */}
         <div className="mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-3">
-            Our Products
+            Metallic & Semi-Metallic Gaskets
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl">
-            Comprehensive range of industrial sealing solutions designed for demanding applications
+            Our gasket manufacturing division produces a wide range of metallic and semi-metallic sealing products, including:
+
           </p>
         </div>
 
