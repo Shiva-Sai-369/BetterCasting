@@ -90,10 +90,10 @@ export const InfiniteMovingCards = ({
             key={`${item.name}-${idx}`}
           >
             {/* Background with gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 z-0" />
+            <div className="absolute inset-0 bg-[#0059AD] z-0" />
             
             {/* Animated border effect */}
-            <div className="absolute inset-0 rounded-2xl border border-slate-700/50 group-hover:border-[#00AADF]/50 transition-colors duration-300 z-10" />
+            <div className="absolute inset-0 rounded-2xl border border-white/20 group-hover:border-[#00AADF] transition-colors duration-300 z-10" />
             
             {/* Accent background glow */}
             <div className="absolute -inset-1 bg-gradient-to-br from-[#00AADF]/20 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-xl z-0" />
@@ -111,14 +111,14 @@ export const InfiniteMovingCards = ({
                 <h3 className="text-lg font-bold text-white mb-3 group-hover:text-[#00AADF] transition-colors">
                   {item.name}
                 </h3>
-                <p className="text-sm leading-relaxed text-slate-300 group-hover:text-slate-200 transition-colors line-clamp-3">
+                <p className="text-sm leading-relaxed text-white/90 group-hover:text-white transition-colors line-clamp-3">
                   {item.quote}
                 </p>
               </div>
 
               {/* Footer */}
-              <div className="mt-4 pt-4 border-t border-slate-700/30">
-                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+              <div className="mt-4 pt-4 border-t border-white/20">
+                <p className="text-xs font-semibold text-white/70 uppercase tracking-wider">
                   {item.title}
                 </p>
               </div>
