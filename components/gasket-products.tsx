@@ -9,14 +9,15 @@ export function GasketProducts() {
       title: "Ring Type Joint (RTJ) Gaskets",
       value: "metallic",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-          <div className="max-w-4xl">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">  
-              Ring Type Joint (RTJ) Gaskets
-            </h3>
-            
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-[#01479C]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Content Section */}
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">  
+                Ring Type Joint (RTJ) Gaskets
+              </h3>
+              
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />                  
@@ -38,13 +39,24 @@ export function GasketProducts() {
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
                   <span className="text-slate-200">RX Ring Gasket</span>
                 </div>
-              </div>          
+              </div>
+
+              <p className="mt-8 text-slate-400 text-sm">
+                Each gasket is manufactured according to international standards to
+                ensure excellent sealing performance in critical industrial systems.
+              </p>
             </div>
 
-            <p className="mt-8 text-slate-400 text-sm">
-              Each gasket is manufactured according to international standards to
-              ensure excellent sealing performance in critical industrial systems.
-            </p>
+            {/* Image Section */}
+            <div className="flex items-center justify-center">
+              <div className="relative w-full max-w-md">
+                <img 
+                  src="/R-Oval-Ring-Gasket-Image-removebg-preview.png" 
+                  alt="R Oval Ring Gasket"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -53,13 +65,14 @@ export function GasketProducts() {
       title: "Spiral Wound Gaskets",
       value: "spiral",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-          <div className="max-w-4xl">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              Spiral Wound Gaskets
-            </h3>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-[#01479C]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Content Section */}
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">
+                Spiral Wound Gaskets
+              </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
@@ -74,11 +87,22 @@ export function GasketProducts() {
                   <span className="text-slate-200">CGI (Gasket with Inner and Outer Ring)</span>
                 </div>
               </div>
+
+              <p className="mt-8 text-slate-400 text-sm">
+                Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
+              </p>
             </div>
 
-            <p className="mt-8 text-slate-400 text-sm">
-              Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
-            </p>
+            {/* Image Section */}
+            <div className="flex items-center justify-center">
+              <div className="relative w-full max-w-md">
+                <img 
+                  src="/images-removebg-preview.png" 
+                  alt="Spiral Wound Gasket"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -87,13 +111,14 @@ export function GasketProducts() {
       title: "Specialty Gaskets",
       value: "specialty",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-          <div className="max-w-4xl">
-            <h3 className="text-2xl md:text-3xl font-bold mb-6">
-              Specialty Gaskets
-            </h3>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-8 md:p-12 text-white bg-[#01479C]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            {/* Content Section */}
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-6">
+                Specialty Gaskets
+              </h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#00AADF] flex-shrink-0 mt-0.5" />
@@ -108,11 +133,22 @@ export function GasketProducts() {
                   <span className="text-slate-200">Other Custom Gaskets</span>
                 </div>
               </div>
+
+              <p className="mt-8 text-slate-400 text-sm">
+                Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
+              </p>
             </div>
 
-            <p className="mt-8 text-slate-400 text-sm">
-              Each gasket is manufactured according to international standards to ensure excellent sealing performance in critical industrial systems.
-            </p>
+            {/* Image Section */}
+            <div className="flex items-center justify-center">
+              <div className="relative w-full max-w-md">
+                <img 
+                  src="/IX-Gasket-Image-removebg-preview.png" 
+                  alt="IX Gasket"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </div>
           </div>
         </div>
       ),
