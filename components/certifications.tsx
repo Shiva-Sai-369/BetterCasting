@@ -27,17 +27,17 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section className="w-full bg-black py-16 md:py-20 px-4 md:px-6">
+    <section className="w-full bg-[#004DA0] py-16 md:py-20 px-4 md:px-6">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-2">
+          <p className="text-sm font-semibold uppercase tracking-wider text-white/70 mb-2">
             QUALITY & COMPLIANCE
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Our Certifications
           </h2>
-          <p className="text-lg text-gray-300 max-w-3xl leading-relaxed">
+          <p className="text-lg text-white/90 max-w-3xl leading-relaxed">
             At Better Castings, quality, reliability, and compliance are at the core of everything we manufacture. Our certifications demonstrate our commitment to maintaining international quality standards, ensuring that every gasket, stud, nut, and industrial component meets stringent industry requirements.
           </p>
         </div>
@@ -60,8 +60,8 @@ export default function Certifications() {
         </div>
 
         {/* Footer text */}
-        <div className="mt-12 pt-12 border-t border-gray-700">
-          <p className="text-gray-300 text-base leading-relaxed max-w-3xl">
+        <div className="mt-12 pt-12 border-t border-white/20">
+          <p className="text-white/90 text-base leading-relaxed max-w-3xl">
             These internationally recognized certifications reflect our dedication to excellence and continuous improvement. We regularly audit and update our processes to maintain compliance with evolving standards and customer requirements.
           </p>
         </div>
